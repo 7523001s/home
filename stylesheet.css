@@ -1,34 +1,24 @@
 html {
-  font-size: 10px;
+  font-size: 18px;
 }
 
 table {
-  font-size: 9px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 9px;
+  }
+  table {
+    font-size: 8px;
+  }
 }
 
 .centered-table{
   margin-left: auto; 
   margin-right: auto;
 }
-
-/*@media screen and (max-width: 768px) {
-  html {
-    font-size: 14px;
-  }
-  table {
-    font-size: 11px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  html {
-    font-size: 11px;
-  }
-  table {
-    font-size: 7px;
-  }
-}
-  */
 
 body{
   /* 背景色指定 */
