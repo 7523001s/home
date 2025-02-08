@@ -3,24 +3,24 @@ html {
 }
 
 table {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 768px) {
   html {
-    font-size: 10px;
+    font-size: 13px;
   }
   table {
-    font-size: 9px;
+    font-size: 11px;
   }
 }
 
 @media screen and (max-width: 480px) {
   html {
-    font-size: 6px;
+    font-size: 9px;
   }
   table {
-    font-size: 5px;
+    font-size: 6px;
   }
 }
 
