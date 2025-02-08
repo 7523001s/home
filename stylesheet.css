@@ -1,0 +1,58 @@
+body{
+  /* 背景色指定 */
+background-color:#f7f7f9;
+color:#1d1d1d;
+font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  height: 20px;
+}
+
+a:link{
+  color: #005e99;
+  text-decoration: underline;
+ }
+ 
+ a:visited{
+  color: #00b359;
+  text-decoration: underline;
+ }
+ 
+ a:hover{
+  color: #be82ff;
+  text-decoration: underline;
+ }
+ 
+ a:active{
+  color: #b3272e;
+  text-decoration: underline;
+ }
+
+ hr{
+  height: 2px;
+  background-color: #e83929;
+ }
+
+ #marker{
+  background-color: #abe1fa;
+ }
+
+ .parent{
+display: flow-root;
+}
+
+.left{
+float: left;
+}
+
+.right{
+float: right;
+}
+
+.table-wrap {
+  overflow-x: scroll;
+}
