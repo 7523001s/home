@@ -1,3 +1,7 @@
+html {
+  font-size: 1rem;
+}
+
 body{
   /* 背景色指定 */
 background-color:#f7f7f9;
