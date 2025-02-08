@@ -3,7 +3,7 @@ html {
 }
 
 table {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -29,6 +29,14 @@ body{
 background-color:#f7f7f9;
 color:#1d1d1d;
 font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+h2 {
+  margin: 0px 0;
+}
+
+h3 {
+  margin: 0px 0;
 }
 
 footer {
@@ -79,6 +87,21 @@ float: left;
 float: right;
 }
 
-.table-wrap {
-  overflow-x: scroll;
+ul {
+  padding-bottom: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 0px; 
+}
+
+ol {
+  padding-bottom: 0px;
+  padding-bottom: 0px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+ul li{
+  padding: 0px 0;
+  list-style: inside;
 }
