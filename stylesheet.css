@@ -1,9 +1,9 @@
 html {
-  font-size: 16px;
+  font-size: 10px;
 }
 
 table {
-  font-size: 15px;
+  font-size: 9px;
 }
 
 .centered-table{
@@ -11,7 +11,7 @@ table {
   margin-right: auto;
 }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
   html {
     font-size: 14px;
   }
@@ -28,6 +28,7 @@ table {
     font-size: 7px;
   }
 }
+  */
 
 body{
   /* 背景色指定 */
