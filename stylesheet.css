@@ -20,6 +20,11 @@ table {
   margin-right: auto;
 }
 
+table,table th,table td{
+  border:0.1px solid #afb3af;
+  border-spacing:0.5px;
+ }
+
 body{
   /* 背景色指定 */
 background-color:#f7f7f9;
