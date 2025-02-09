@@ -22,8 +22,13 @@ table {
 
 table,table th,table td{
   border:0.1px solid #afb3af;
+  border-style: inset;
   border-spacing:0.5px;
  }
+
+tbody{
+  background:rgba(175,179,175,0.1);
+  }
 
 body{
   /* 背景色指定 */
@@ -68,7 +73,7 @@ a:link{
  }
 
  hr{
-  height: 2px;
+  height: 0.2rem;
   background-color: #e83929;
  }
 
