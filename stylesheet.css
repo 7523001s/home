@@ -97,17 +97,13 @@ ul {
   padding-bottom: 0px;
   padding-bottom: 0px;
   padding-left: 1rem;
-  margin-top: 0px; 
+  margin-top: 0.5rem; 
 }
 
 ol {
   padding-bottom: 0px;
   padding-bottom: 0px;
-  padding-left: 4rem;
+  padding-left: 1rem;
   padding-right: 2rem;
-}
-
-ul li{
-  padding: 0px 0;
-  list-style: inside;
+  margin-top: 0.5rem; 
 }
