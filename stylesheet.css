@@ -32,7 +32,7 @@ img {
 table,table th,table td{
   border:0.1px solid #afb3af;
   border-style: inset;
-  border-spacing:0.5px;
+  border-spacing:1px;
  }
 
 tbody{
