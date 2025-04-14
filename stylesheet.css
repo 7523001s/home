@@ -1,13 +1,9 @@
 html {
-  font-size: 18px;
+  font-size: 10px;
 }
 
 table {
-  font-size: 17px;
-}
-
-img {
-  width: 200px; height: 200px
+  font-size: 8px;
 }
 
 /* @media screen and (max-width: 720px) {
@@ -17,10 +13,6 @@ img {
   
   table {
     font-size: 8px;
-  }
-
-  img {
-    width: 100px; height: 100px
   }
 } */
 
