@@ -1,12 +1,12 @@
 html {
-  font-size: 10px;
+  font-size: 18px;
 }
 
 table {
-  font-size: 8px;
+  font-size: 12px;
 }
 
-/* @media screen and (max-width: 720px) {
+@media screen and (max-width: 499px) {
   html {
     font-size: 10px;
   }
@@ -14,7 +14,7 @@ table {
   table {
     font-size: 8px;
   }
-} */
+}
 
 .centered-table{
   margin-left: auto; 
