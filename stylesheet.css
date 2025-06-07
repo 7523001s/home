@@ -6,6 +6,16 @@ table {
   font-size: 16px;
 }
 
+@media screen and (max-width: 599px) {
+  html {
+    font-size: 14px;
+  }
+  
+  table {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 499px) {
   html {
     font-size: 10px;
