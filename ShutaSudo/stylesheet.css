@@ -3,13 +3,14 @@ html {
 }
 
 table {
-  font-size: 17px;
+  font-size: 12px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 499px) {
   html {
     font-size: 10px;
   }
+  
   table {
     font-size: 8px;
   }
@@ -23,7 +24,7 @@ table {
 table,table th,table td{
   border:0.1px solid #afb3af;
   border-style: inset;
-  border-spacing:0.5px;
+  border-spacing:1px;
  }
 
 tbody{
