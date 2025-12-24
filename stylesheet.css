@@ -118,3 +118,11 @@ ol {
   margin-left: 20px;
   border: 1px solid #ccc;
 }
+
+@media (max-width: 499px) {
+  .profile-pic {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+  }
+}
