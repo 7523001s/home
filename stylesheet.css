@@ -47,12 +47,10 @@ h3 {
 }
 
 footer {
-  /* フッターは通常フローに置き、幅は100%にする。
-     body を flex コンテナにしているので、コンテンツが短いときは下に押し下げられ、
-     長いときは通常のスクロールとなる。 */
-  position: static;
-  width: 100%;
-  height: auto;
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  height: 20px;
 }
 
 a:link{
@@ -127,19 +125,4 @@ ol {
     height: 90px;
     margin-left: 10px;
   }
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* ビューポート高さ以上に伸ばし、フッターを末尾に配置できるようにする */
-}
-
-.content {
-  flex: 1;
 }
