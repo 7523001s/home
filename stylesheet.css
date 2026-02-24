@@ -126,3 +126,7 @@ ol {
     margin-left: 10px;
   }
 }
+
+.weekday {
+  height: 80px;
+}
